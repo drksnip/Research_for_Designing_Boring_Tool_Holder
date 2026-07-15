@@ -1,6 +1,8 @@
 # Advanced setup of tuned mass absorber in rotary boring tool holder- Project 
 This branch has the initial stages of the project statement which is adapted directly from the research paper code.
 
+This branch has optimisation of  just an individual function(maximised limiting depth of cut) to find optimised design. It basically sweeps linearly dispersed points to find best possible design, each development contains 1D sweep updates to 2D sweep then to 4D sweep. Problem faced here is I havent considered other functions which also effects the design selection, I thought of doing this as each individual optimisation and then aggregate the result which was wrong and I started to think of in other direction which is **Multi Objective Optimisation**. The next branch is going to develop this idea.
+
 Project Statement:
 
 **Optimization of Boring Bar Dynamics**
