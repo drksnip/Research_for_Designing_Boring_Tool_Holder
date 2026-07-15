@@ -1,1 +1,2 @@
-# A
+# Development of MOO for TMD rotary boring tool
+This branch has sweeping over points with comparison of results for multi objective function, it basically finds a parento front for the points that are sweeped and finds normalised scores for those points and selects the best points. The problem arised here is that I sweep for selective linearly distributed points which doesnt get me the optimised result or a result closer to it even. So I had to integrate it with **NSGA**(Non-dominated Sorting Genetic Algorithm), which searches for best point instead of sweeping selective points, this developments are included in the next branch.
